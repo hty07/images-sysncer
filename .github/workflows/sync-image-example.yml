@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy https://hub.docker.com/_/mysql:9.0.0 docker://registry.cn-hangzhou.aliyuncs.com/htytest/mysql:9.0.0
+        skopeo copy hub.docker.com/_/mysql:9.0.0 docker://registry.cn-hangzhou.aliyuncs.com/htytest/mysql:9.0.0
