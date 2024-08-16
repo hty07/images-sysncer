@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/library/redis:7.4.0 docker://registry.cn-hangzhou.aliyuncs.com/htytest/redis:7.4.0
+        skopeo copy docker://docker.io/library/tomcat:11.0.0 docker://registry.cn-hangzhou.aliyuncs.com/htytest/tomcat:11.0.0
