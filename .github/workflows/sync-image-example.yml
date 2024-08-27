@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/library/rabbitmq:3.13.0-management docker://registry.cn-hangzhou.aliyuncs.com/htytest/rabbitmq:3.13.0-management
+        skopeo copy docker://docker.io/library/mysql:8.0.30 docker://registry.cn-hangzhou.aliyuncs.com/htytest/mysql:8.0.30
