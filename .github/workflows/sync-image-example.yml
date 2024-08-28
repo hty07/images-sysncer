@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/library/mongo:7.0.14 docker://registry.cn-hangzhou.aliyuncs.com/htytest/mongo:7.0.14
+        skopeo copy docker://docker.io/library/bitnami/kafka:3.8.0 docker://registry.cn-hangzhou.aliyuncs.com/htytest/bitnami-kafka:3.8.0
