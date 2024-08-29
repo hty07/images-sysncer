@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/library/zookeeper:3.9.0 docker://registry.cn-hangzhou.aliyuncs.com/htytest/zookeeper:3.9.0
+        skopeo copy docker://docker.io/library/provectuslabs/kafka-ui:v0.7.2 docker://registry.cn-hangzhou.aliyuncs.com/htytest/provectuslabs-kafka-ui:v0.7.2
